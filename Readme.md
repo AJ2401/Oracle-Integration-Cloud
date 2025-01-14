@@ -482,7 +482,7 @@ SOAPAction: "Some-URI " *Place Actual URI (UNIQUE RESOURCE IDENTIFIER)*
 
 ### Integration Development & Management Workflow :
 
-![alt text](/OIC/Images/image-1.png)
+![alt text](./Images/image-1.png)
 
 ### What are Look-Ups ?
 
@@ -518,7 +518,7 @@ SOAPAction: "Some-URI " *Place Actual URI (UNIQUE RESOURCE IDENTIFIER)*
 
 2. Multiple `Runtime` Connection are managed by OIC for each integration.
 
-![alt text](/OIC/Images/image-2.png)
+![alt text](./Images/image-2.png)
 
 3. Connections are used for 2 roles :
 
@@ -529,7 +529,7 @@ SOAPAction: "Some-URI " *Place Actual URI (UNIQUE RESOURCE IDENTIFIER)*
 - Invoke (Out-Bound)
   - Used to define an external service or integration which can be called from an integration.
 
-![alt text](/OIC/Images/image-3.png)
+![alt text](./Images/image-3.png)
 
 ### Types of OIC Adapters :
 
@@ -824,7 +824,7 @@ In `Scenario 1` we want require an exception handler but for `Scenario 2` we wil
 
   2. On-Premise Agent : It is Installed and ran on local systems in a desirable environment.
 
-![alt text](/OIC/Images/image-4.png)
+![alt text](./Images/image-4.png)
 
 - All communications are `Secured` using `SSL` and agent acts a medium between `On-Prem` applications and `OIC Integration`.
 
@@ -836,7 +836,7 @@ In `Scenario 1` we want require an exception handler but for `Scenario 2` we wil
 
 - Pulls Run-Time Requests -> Returns Run-Time Response
 
-![alt text](/OIC/Images/image-5.png)
+![alt text](./Images/image-5.png)
 
 ### Deployment Topology
 
@@ -848,7 +848,7 @@ In `Scenario 1` we want require an exception handler but for `Scenario 2` we wil
 
 ### How to Use Connectivity Agents ?
 
-![alt text](/OIC/Images/image-6.png)
+![alt text](./Images/image-6.png)
 
 > The Agent configuration file CpiAgent.properties contains information about the OIC connection and
 > agent infrastructure
@@ -872,7 +872,7 @@ In `Scenario 1` we want require an exception handler but for `Scenario 2` we wil
   3. Manage Data in `Interface Tables`.
   4. Use web-services to automate inbound flow (performing request came from external sources).
 
-![alt text](/OIC/Images/image-7.png)
+![alt text](./Images/image-7.png)
 
 ### How to load data into Interface Tables ?
 
@@ -1040,7 +1040,7 @@ Integration Cloud:
 
 Sometimes when we need to transfer an Integration from one Instance to another Instance (changing of user)(basically copying and pasting of an integrations).
 
-![alt text](/OIC/Images/Migrations.png)
+![alt text](./Images/Migrations.png)
 
 ### Stage 1 : Create Source
 
@@ -1054,7 +1054,7 @@ Sometimes when we need to transfer an Integration from one Instance to another I
 
 ### Stage 3 : Configure the Target Instance
 
-![alt text](/OIC/Images/Config_mig.png)
+![alt text](./Images/Config_mig.png)
 
 ### Using Export-Import Method to Migrate an Integration in OIC
 
@@ -1066,7 +1066,7 @@ Sometimes when we need to transfer an Integration from one Instance to another I
 
 - `View Export Migration Report` and `View Import Migration Report` may be respectively used for viewing the export and import status.
 
-![alt text](/OIC/Mig_Export_Import.png)
+![alt text](./Mig_Export_Import.png)
 
 <br>
 
@@ -1076,15 +1076,15 @@ Sometimes when we need to transfer an Integration from one Instance to another I
 
 ### REST ADAPTER CONFIGURATIONS
 
-![alt-text](/OIC/Images/Rest_Adapter.png)
+![alt-text](./Images/Rest_Adapter.png)
 
 ### SOAP ADAPTER CONFIGURATIONS
 
-![alt-text](/OIC/Images/SOAP_Adapter.png)
+![alt-text](./Images/SOAP_Adapter.png)
 
 ## I. Starting with Basic Integration :
 
-![alt text](/OIC/Images/Hello_World_INT.png)
+![alt text](./Images/Hello_World_INT.png)
 
 -> Chose App-Driven Orchestration Integration.
 
@@ -1094,7 +1094,7 @@ Sometimes when we need to transfer an Integration from one Instance to another I
 
 ## II. Integration Calling BI Publisher
 
-![alt text](/OIC/Images/BIP_Report_Call_INT.png)
+![alt text](./Images/BIP_Report_Call_INT.png)
 
 -> Using Schedule Orchestration Integration.
 
@@ -1117,7 +1117,7 @@ Sometimes when we need to transfer an Integration from one Instance to another I
 
 ## III. Calling BI Publisher Report(decode function)
 
-![alt text](/OIC/Images/BIP_CALLING_DYNAMIC.png)
+![alt text](./Images/BIP_CALLING_DYNAMIC.png)
 
 -> Using Schedule Orchestration Integration.
 
@@ -1142,13 +1142,13 @@ Sometimes when we need to transfer an Integration from one Instance to another I
 
 ## IV. Calling BI Publisher Report with Parameter
 
-![alt text](/OIC/Images/BIP_CALLING_WP_SOAP.png)
+![alt text](./Images/BIP_CALLING_WP_SOAP.png)
 
 -> Will act as same like above case but only change that be seen is while mapping there will be a list of parameter where you have to go inside `names` add the a paramter `name` and under `values` add the `value that you pass as a parameter`.
 
 ## V. Scheduling an ESS Job
 
-![alt text](/OIC/Images/ESS_JOB_INT.png)
+![alt text](./Images/ESS_JOB_INT.png)
 
 -> Using Scheduled Orchestration (Optional)
 
@@ -1166,11 +1166,11 @@ Sometimes when we need to transfer an Integration from one Instance to another I
 
 ### FTP ADAPTER CONFIGURATIONS
 
-![alt-text](/OIC/Images/FTP_Adapter.png)
+![alt-text](./Images/FTP_Adapter.png)
 
 ## VI. Write to FTP
 
-![alt text](/OIC/Images/Write_OP_FTP_INT.png)
+![alt text](./Images/Write_OP_FTP_INT.png)
 
 -> Using App-Driven Orchestration.
 
@@ -1188,7 +1188,7 @@ Sometimes when we need to transfer an Integration from one Instance to another I
 
 ## VII. Read From FTP
 
-![alt text](/OIC/Images/Read_OP_FTP_INT.png)
+![alt text](./Images/Read_OP_FTP_INT.png)
 
 -> Using App-Driven Orchestration.
 
@@ -1200,7 +1200,7 @@ Sometimes when we need to transfer an Integration from one Instance to another I
 
 ## VIII. Create an Invoice
 
-![alt text](/OIC/Images/Create_INVOICE_INT.png)
+![alt text](./Images/Create_INVOICE_INT.png)
 
 -> Using App-Driven Orchestration (optional).
 
@@ -1210,11 +1210,11 @@ Sometimes when we need to transfer an Integration from one Instance to another I
 
 ## IX. Create an Invoice and then Attach a file & Attaching a file to an Invoice
 
-![alt text](/OIC/Images/Attaching_Document_TO_Invoice_INT.png)
+![alt text](./Images/Attaching_Document_TO_Invoice_INT.png)
 
 ### &
 
-![alt text](/OIC/Images/Invoice_Attaching_INT.png)
+![alt text](./Images/Invoice_Attaching_INT.png)
 
 -> Using App Driven Orchestration.
 
@@ -1226,7 +1226,7 @@ Sometimes when we need to transfer an Integration from one Instance to another I
 
 ## X. Fault Handlers in an Integration
 
-![alt text](/OIC/Images/Exception_Handling_INT.png)
+![alt text](./Images/Exception_Handling_INT.png)
 
 -> Using App Driven Orchestration.
 
@@ -1242,7 +1242,7 @@ Sometimes when we need to transfer an Integration from one Instance to another I
 
 ## XI. Listing of Remote Files using FTP Adapter
 
-![alt text](/OIC/Images/List_Files_FTP_INT.png)
+![alt text](./Images/List_Files_FTP_INT.png)
 
 -> Using App-Driven Orchestration (Optional)
 
@@ -1256,7 +1256,7 @@ Sometimes when we need to transfer an Integration from one Instance to another I
 
 ## XII. Moving of Remote Files using FTP Adapter
 
-![alt text](/OIC/Images/Moving_Files_FTP_INT.png)
+![alt text](./Images/Moving_Files_FTP_INT.png)
 
 -> Using App-Driven Orchestration (Optional)
 
@@ -1270,7 +1270,7 @@ Sometimes when we need to transfer an Integration from one Instance to another I
 
 ## XIII. Deleting of Remote Files using FTP Adapter
 
-![alt text](/OIC/Images/FTP_DELETE_FILE_INT.png)
+![alt text](./Images/FTP_DELETE_FILE_INT.png)
 
 -> Using App-Driven Orchestration (Optional)
 
@@ -1280,7 +1280,7 @@ Sometimes when we need to transfer an Integration from one Instance to another I
 
 ## XIV. Ziping of Remote Files using FTP Adapter
 
-![alt-text](Images/Zip_Files_FTP_INT.png)
+![alt-text](./Images/Zip_Files_FTP_INT.png)
 
 -> Using App-Driven Orchestration (Optional)
 
@@ -1292,11 +1292,11 @@ Sometimes when we need to transfer an Integration from one Instance to another I
 
 ### DATABASE ADAPTER CONFIGURATIONS
 
-![alt-text](/OIC/Images/Oracle_DB_Adapter.png)
+![alt-text](./Images/Oracle_DB_Adapter.png)
 
 ## XV. Insert Records in On-Prem DataBase
 
-![alt text](/OIC/Images/OnPrem_DB_Insert_Records_INT.png)
+![alt text](./Images/OnPrem_DB_Insert_Records_INT.png)
 
 -> Using an App-Driven Orchestration.
 
@@ -1314,7 +1314,7 @@ Sometimes when we need to transfer an Integration from one Instance to another I
 
 ## XVI. Retrive Data From On-Premise Database and Writing the Record to FTP Server.
 
-![alt text](/OIC/Images/OnPrem_DB_WRITE_RECORDS_INT.png)
+![alt text](./Images/OnPrem_DB_WRITE_RECORDS_INT.png)
 
 -> Using App-Driven Orchestration(Optional).
 
@@ -1322,7 +1322,7 @@ Sometimes when we need to transfer an Integration from one Instance to another I
 
 ## XVII. Invoking a Stored Function from an On-Prem Database
 
-![alt text](/OIC/Images/CALLING_FUNCTION_ONPRem_DB_INT.png)
+![alt text](./Images/CALLING_FUNCTION_ONPRem_DB_INT.png)
 
 -> Using App-Driven Orchestration(Optional).
 
@@ -1332,7 +1332,7 @@ Sometimes when we need to transfer an Integration from one Instance to another I
 
 ## XVIII. Invoking a Stored Procedure from an On-Prem Database
 
-![alt text](/OIC/Images/Procedure_Calling_INT.png)
+![alt text](./Images/Procedure_Calling_INT.png)
 
 -> Using App-Driven Orchestration(Optional).
 
@@ -1340,7 +1340,7 @@ Sometimes when we need to transfer an Integration from one Instance to another I
 
 ## XIX. FBDI (File Based Data Import)
 
-![alt text](/OIC/Images/FDBI_INT.png)
+![alt text](./Images/FDBI_INT.png)
 
 -> Using a Scheduled Orchestration (Optional)
 
