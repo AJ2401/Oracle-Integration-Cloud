@@ -227,7 +227,7 @@ SOAPAction: "Some-URI " *Place Actual URI (UNIQUE RESOURCE IDENTIFIER)*
 
 <br>
 
-![alt text](/OIC/Images/image.png)
+![alt text](./Images/image.png)
 
 1. Defination :
    - Root of all WSDL documents.
