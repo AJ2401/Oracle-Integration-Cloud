@@ -1,1 +1,2 @@
-<embed src="Oracle-Integration-Cloud/Oracle_Integration_Cloud.pdf" width="100%"/>
+[View my PDF here](./Oracle-Integration-Cloud/Oracle_Integration_Cloud.pdf")
+
