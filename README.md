@@ -1,1 +1,1 @@
-[Some title here](Oracle_Integration_Cloud.pdf)
+<embed src="Oracle_Integration_Cloud.pdf" width="100%"/>
